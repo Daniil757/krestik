@@ -38,6 +38,17 @@ body {
     font-weight: 700;
 }
 
+@media (max-width:600px) {
+    .col {
+        font-size: 14px;
+        width: 100px;
+        margin: 2px;
+    }
+    .container {
+        padding: 50px 0px;
+    }
+}
+
 .col:hover {
     cursor: pointer;
 }
